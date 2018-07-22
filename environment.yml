@@ -6,6 +6,8 @@ dependencies:
   - requests
   # bind ipython version (compatibility to pgcontents)
   - ipython = 5
+  - pandas
+  - fix_yahoo_finance
   # bind tornado version (websocket problems)
   - tornado = 4.5
   # get dependencies for pgcontents
