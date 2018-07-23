@@ -6,8 +6,6 @@ dependencies:
   - requests
   # bind ipython version (compatibility to pgcontents)
   - ipython = 5
-  - pandas
-  - seaborn
   # bind tornado version (websocket problems)
   - tornado = 4.5
   # get dependencies for pgcontents
@@ -20,6 +18,7 @@ dependencies:
   - sqlalchemy
   - nose
   - pip:
+    - pandas
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
     - git+git://github.com/closeio/ciso8601.git
