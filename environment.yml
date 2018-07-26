@@ -17,6 +17,7 @@ dependencies:
   - six
   - sqlalchemy
   - nose
+  
   - pip:
     - pandas
     - pgcontents
@@ -27,4 +28,7 @@ dependencies:
     - seaborn
     - numpy
     - RISE
+   
+   - jupyter labextension install @jupyterlab/google-drive
+    
    
