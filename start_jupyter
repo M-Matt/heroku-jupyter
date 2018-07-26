@@ -4,6 +4,7 @@ pgcontents init -l $DATABASE_URL --no-prompt
 
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
+jupyter labextension install @jupyterlab/google-drive
 jupyter nbextension enable --py widgetsnbextension
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.34
 
