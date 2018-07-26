@@ -29,7 +29,5 @@ dependencies:
     - numpy
     - RISE
     
-   - conda:
-     - conda-forge ipywidgets
        
    
