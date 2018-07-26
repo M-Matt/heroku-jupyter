@@ -4,7 +4,6 @@ pgcontents init -l $DATABASE_URL --no-prompt
 
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
-conda install -c conda-forge ipywidgets
 jupyter nbextension enable --py widgetsnbextension
 
 
