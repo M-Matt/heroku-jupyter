@@ -9,6 +9,6 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.34
 
 
-jupyter notebooks \
+jupyter notebook \
 	--no-browser --no-mathjax --ip=* --port $PORT \
 	$JUPYTER_NOTEBOOK_ARGS \
