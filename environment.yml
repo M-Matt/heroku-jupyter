@@ -29,6 +29,7 @@ dependencies:
     - numpy
     - RISE
    
-   - jupyter labextension install @jupyterlab/google-drive
+   - jupyter:
+      - labextension install @jupyterlab/google-drive
     
    
