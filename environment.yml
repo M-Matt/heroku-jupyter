@@ -24,10 +24,12 @@ dependencies:
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
     - git+git://github.com/closeio/ciso8601.git
     - jupyter
+    - ipywidgets
     - matplotlib
     - seaborn
     - numpy
     - RISE
+    
     
        
    
